@@ -14,13 +14,13 @@ public class ASUHelloWorldJavaFX extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+    //Test Test TEst
     public void start(Stage primaryStage) {
     	System.out.println("ASU Hello World!");
     	System.out.println("It started!");
         primaryStage.setTitle("ASU Hello World Spring 2024");
         Button btn = new Button();
-        btn.setText("Andrew's second commit");
+        btn.setText("Test");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("ASU: Hello World!");
